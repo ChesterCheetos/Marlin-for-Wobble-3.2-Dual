@@ -72,6 +72,7 @@
 // @section info
 
 //Changelog: 2022-01-06 changed to trianglelab Chimera, with an extruder offset of 20mm instead of 17.8. 
+//2022-02-20: changed extruder offset to 19.9 instead of 20 
 
 // User-specified version info of this build to display in [Pronterface, etc] terminal window during
 // startup. Implementation of an idea by Prof Braino to inform user that any changes made to this
@@ -219,7 +220,7 @@
 // Offset of the extruders (uncomment if using more than one and relying on firmware to position when changing).
 // The offset has to be X=0, Y=0 for the extruder 0 hotend (default extruder).
 // For the other hotends it is their distance from the extruder 0 hotend.
-#define HOTEND_OFFSET_X {0, -20} // (in mm) for each extruder, offset of the hotend on the X axis
+#define HOTEND_OFFSET_X {0, -19.9} // (in mm) for each extruder, offset of the hotend on the X axis
 #define HOTEND_OFFSET_Y {0, 0}  // (in mm) for each extruder, offset of the hotend on the Y axis
 
 // @section machine
